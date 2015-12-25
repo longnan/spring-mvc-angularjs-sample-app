@@ -7,7 +7,7 @@ A sample project to demonstrate how a web app can be built using a Spring MVC / 
 The following dependencies are necessary: 
 
  - Java 8
- - Node 0.10
+ - Node 0.12 or higher
  - bower
  - maven 3
 
@@ -102,7 +102,7 @@ Clone this repository, install nodejs and bower and on the root of the repositor
     
 Then run one of the maven commands bellow. 
 
-### How to run the project against a non-in-memory database ###
+### How to run the project against a PostgreSQL database ###
 
 This command starts the application with a local postgresql database:
 
